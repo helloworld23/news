@@ -1,0 +1,38 @@
+.comment textarea{
+    width: 100%;
+}
+.comment button{
+    background: #ff6600;
+    color: #fff;
+}
+.qh-avatar{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.qh-avatar img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.qh-user-nt{
+    float: left;
+    padding-left: 22px;
+}
+.qh-u-name{
+    color: #999;
+    margin-right: 8px;
+    display: inline;
+    font-size: 14px;
+}
+.qh-u-time{
+    color: #999;
+    display: inline;
+    font-size: 14px;
+}
+.qh-cmt-bar{
+    overflow: hidden;
+}
+.qh-cmt-cont-wrap{
+    padding-left: 64px;
+}
