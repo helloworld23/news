@@ -7,44 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d05c6b9-7a75-4252-b89e-81cd0328ec85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/AdminDAO.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/AdminDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/ArticleDAO.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/ArticleDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/HitsDAO.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/HitsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/SystemInfoDAO.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/SystemInfoDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/dao/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/Article.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/Comment.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/SystemInfo.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/model/SystemInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/service/ArticleService.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/service/ArticleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/service/SystemInfoService.class" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/com/news/service/SystemInfoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.7.3.jar" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.7.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/dao/AdminDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/news/dao/AdminDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/dao/ArticleDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/news/dao/ArticleDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/dao/HitsDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/news/dao/HitsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/dao/SystemInfoDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/news/dao/SystemInfoDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/news/dao/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/model/Article.class" afterPath="$PROJECT_DIR$/target/classes/com/news/model/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/model/Comment.class" afterPath="$PROJECT_DIR$/target/classes/com/news/model/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/model/SystemInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/news/model/SystemInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/service/ArticleService.class" afterPath="$PROJECT_DIR$/target/classes/com/news/service/ArticleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/news/service/SystemInfoService.class" afterPath="$PROJECT_DIR$/target/classes/com/news/service/SystemInfoService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/dao/AdminDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/dao/AdminDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/dao/ArticleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/dao/ArticleDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/dao/HitsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/dao/HitsDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/dao/SystemInfoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/dao/SystemInfoDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/dao/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/model/Article.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/model/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/model/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/model/Comment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/model/SystemInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/model/SystemInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/service/ArticleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/service/ArticleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/news/service/SystemInfoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/news/service/SystemInfoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/MyNews-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,11 +49,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user" pinned="false" current-in-tab="true">
-        <entry file="das://table:/db9e59ab/865077c5-b3a9-4fd0-b148-5551c565c533/news.user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+              <folding>
+                <marker date="1505297763270" expanded="false" signature="1225:1239" ph="com.mysql.jdbc.Driver" />
+                <marker date="1505297763270" expanded="false" signature="1274:1285" ph="jdbc:mysql://localhost:3306/news?characterEncoding=UTF-8" />
+                <marker date="1505297763270" expanded="false" signature="1325:1341" ph="root" />
+                <marker date="1505297763270" expanded="false" signature="1381:1397" ph="123456" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/adminSystemInfo.js" />
@@ -199,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/news/service/SystemInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/news/service/ArticleService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/865077c5-b3a9-4fd0-b148-5551c565c533/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -353,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48502305" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -974,7 +944,7 @@
       <workItem from="1505187237653" duration="303000" />
       <workItem from="1505188304245" duration="41000" />
       <workItem from="1505206843959" duration="371000" />
-      <workItem from="1505296153321" duration="172000" />
+      <workItem from="1505296153321" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1500787022488</created>
@@ -983,11 +953,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500787022488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代码修改">
+      <created>1505296351483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505296351483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275003000" />
+    <option name="totallyTimeSpent" value="276178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,7 +1026,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="代码修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,36 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding>
-            <marker date="1500786786514" expanded="true" signature="97:3535" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="914:1091" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1024:1082" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1181:1409" ph="..." />
-            <marker date="1500786786514" expanded="false" signature="1225:1239" ph="com.mysql.jdbc.Driver" />
-            <marker date="1500786786514" expanded="false" signature="1274:1285" ph="jdbc:mysql://localhost:3306/news?characterEncoding=UTF-8" />
-            <marker date="1500786786514" expanded="false" signature="1325:1341" ph="root" />
-            <marker date="1500786786514" expanded="false" signature="1381:1397" ph="123456" />
-            <marker date="1500786786514" expanded="true" signature="1461:2216" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1561:1604" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1644:2125" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1655:2111" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="1702:1769" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="2160:2207" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="2260:2806" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="2706:2797" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="2847:2996" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="3113:3334" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="3131:3320" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="3348:3525" ph="..." />
-            <marker date="1500786786514" expanded="true" signature="3381:3444" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
@@ -1616,6 +1564,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+          <folding>
+            <marker date="1505297763270" expanded="false" signature="1225:1239" ph="com.mysql.jdbc.Driver" />
+            <marker date="1505297763270" expanded="false" signature="1274:1285" ph="jdbc:mysql://localhost:3306/news?characterEncoding=UTF-8" />
+            <marker date="1505297763270" expanded="false" signature="1325:1341" ph="root" />
+            <marker date="1505297763270" expanded="false" signature="1381:1397" ph="123456" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1670,7 +1631,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyNews</last-edited>
+          <last-edited>Spring|MyNews</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

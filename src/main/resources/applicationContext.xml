@@ -72,6 +72,7 @@
 			<bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy" />
 		</property>
 	</bean>
+	<!-- this is for test -->
 
 	<!-- 配置事务管理 -->
 	<bean id="txManager"
