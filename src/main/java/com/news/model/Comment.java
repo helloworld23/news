@@ -3,7 +3,6 @@ package com.news.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /**
  * Created by zhongziming on 2017/5/5.
@@ -14,7 +13,7 @@ public class Comment {
     private User user;
     private Article article;
     private String content;
-    private Date createTime;
+    private String createTime;
     public Comment(){}
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -56,11 +55,11 @@ public class Comment {
         this.content = content;
     }
 
-    public Date getCreateTime() {
+    public String getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
+    public void setCreateTime(String createTime) {
         this.createTime = createTime;
     }
 }

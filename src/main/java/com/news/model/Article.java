@@ -2,7 +2,6 @@ package com.news.model;
 
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,34 +16,34 @@ public class Article {
     private String category;//类别
     private String content;//内容
     private String author;//作者
-    private Date createTime;//创建时间
-    private Date createTime2;//页面显示创建时间
-    private Date lastModifyTime2;//页面显示最近修改时间
-    private Date lastModifyTime;//最近修改时间
+    private String createTime;//创建时间
+    private String createTime2;//页面显示创建时间
+    private String lastModifyTime2;//页面显示最近修改时间
+    private String lastModifyTime;//最近修改时间
     private String thumbnail;//缩略文
     private int status = 2;//审核状态，0审核不通过，1审核通过，2未审核
     private String imgLocation;
     private List<Comment> comments;
     private Hits hits;
     public Article(){}
-    public void setLastModifyTime2(Date lastModifyTime2){
+    public void setLastModifyTime2(String lastModifyTime2){
         this.lastModifyTime2 = lastModifyTime2;
     }
     @Transient
-    public Date getLastModifyTime2(){
+    public String getLastModifyTime2(){
         return this.lastModifyTime2;
     }
-    public void setCreateTime2(Date createTime2){
+    public void setCreateTime2(String createTime2){
         this.createTime2 = createTime2;
     }
     @Transient
-    public Date getCreateTime2(){
+    public String getCreateTime2(){
         return this.createTime2;
     }
-    public void setLastModifyTime(Date lastModifyTime) {
+    public void setLastModifyTime(String lastModifyTime) {
         this.lastModifyTime = lastModifyTime;
     }
-    public Date getLastModifyTime() {
+    public String getLastModifyTime() {
 
         return lastModifyTime;
     }
@@ -108,11 +107,11 @@ public class Article {
         this.author = author;
     }
 
-    public Date getCreateTime() {
+    public String getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
+    public void setCreateTime(String createTime) {
         this.createTime = createTime;
     }
 

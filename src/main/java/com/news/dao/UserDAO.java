@@ -5,9 +5,7 @@ import com.news.utils.SessionUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -15,7 +13,7 @@ import java.util.List;
  * Created by zhongziming on 2017/5/5.
  */
 
-@Component
+@Repository
 public class UserDAO {
     private SessionUtils sessionUtils = null;
 

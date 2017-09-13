@@ -1,7 +1,6 @@
 package com.news.model;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /**
  * Created by zhongziming on 2017/5/6.
@@ -12,10 +11,10 @@ public class SystemInfo {
     private String content;
     private String createTime2;
     private String lastModifyTime2;
-    private Date createTime;
-    private Date lastModifyTime;
+    private String createTime;
+    private String lastModifyTime;
     public SystemInfo(){}
-    public SystemInfo(int id,String content,Date createTime,Date lastModifyTime){
+    public SystemInfo(int id,String content,String createTime,String lastModifyTime){
         this.id = id ;
         this.content = content;
         this.createTime = createTime;
@@ -56,19 +55,19 @@ public class SystemInfo {
         this.content = content;
     }
 
-    public Date getCreateTime() {
+    public String getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
+    public void setCreateTime(String createTime) {
         this.createTime = createTime;
     }
 
-    public void setLastModifyTime(Date lastModifyTime) {
+    public void setLastModifyTime(String lastModifyTime) {
         this.lastModifyTime = lastModifyTime;
     }
 
-    public Date getLastModifyTime() {
+    public String getLastModifyTime() {
 
         return lastModifyTime;
     }

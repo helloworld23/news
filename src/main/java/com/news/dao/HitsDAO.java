@@ -5,27 +5,29 @@ import com.news.utils.SessionUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * Created by zhongziming on 2017/5/18.
  */
-@Component
+@Repository
 public class HitsDAO {
     private SessionUtils sessionUtils = null;
+    //private Session session = sessionUtils.getSession();//可能NullPointException 待测试
     @Autowired
     public void setSessionUtils(SessionUtils sessionUtils) {
+
         this.sessionUtils = sessionUtils;
     }
     public SessionUtils getSessionUtils(){
+
         return sessionUtils;
     }
     public boolean deleteHits(Hits hits){
-        Session session = null;
+        Session session = sessionUtils.getSession();
         try{
-            session = sessionUtils.getSession();
             session.delete(hits);
         }catch (Exception e){
             e.printStackTrace();
@@ -34,9 +36,8 @@ public class HitsDAO {
         return true;
     }
     public boolean updateHits(Hits hits){
-        Session session = null;
+        Session session = sessionUtils.getSession();
         try{
-            session = sessionUtils.getSession();
             session.update(hits);
         }catch (Exception e){
             e.printStackTrace();

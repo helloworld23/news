@@ -25,31 +25,26 @@ public class SystemInfoService {
     }
 
     public boolean updateSystemInfo(int id,String createTime,String content){
-        SystemInfo systemInfo = new SystemInfo(id,content,new Date(Long.parseLong(createTime)),new Date());
+        String now = getDate();
+        SystemInfo systemInfo = new SystemInfo(id,content,now,now);
         return systemInfoDAO.updateSystenInfo(systemInfo);
     }
+
+    public String getDate() {
+        Date now = new Date();
+        SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return format.format(now);
+    }
+
     public List<SystemInfo> getSystemInfos(int start,int length){
         List<SystemInfo> systemInfos = systemInfoDAO.getSystemInfos(start,length);
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        for (SystemInfo systemInfo:systemInfos){
-            Date createTime = systemInfo.getCreateTime();
-            Date lastModifyTime = systemInfo.getLastModifyTime();
-            if(createTime != null){
-                String createTime2 = format.format(createTime);
-                systemInfo.setCreateTime2(createTime2);
-            }
-            if(lastModifyTime != null){
-                String lastModifyTime2 = format.format(lastModifyTime);
-                systemInfo.setLastModifyTime2(lastModifyTime2);
-            }
-        }
         return systemInfos;
     }
 
     public boolean addSystemInfo(SystemInfo systemInfo){
-        Date date = new Date();
-        systemInfo.setCreateTime(date);
-        systemInfo.setLastModifyTime(date);
+        String now = getDate();
+        systemInfo.setCreateTime(now);
+        systemInfo.setLastModifyTime(now);
         boolean flag = systemInfoDAO.addSystemInfo(systemInfo);
         return flag;
     }

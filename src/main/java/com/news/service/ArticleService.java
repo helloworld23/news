@@ -8,8 +8,8 @@ import com.news.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
+import java.text.*;
 
 /**
  * Created by zhongziming on 2017/5/8.
@@ -49,10 +49,9 @@ public class ArticleService {
 
     //新增新闻
     public boolean addArticle(Article article, String userName) {
-        Date createTime = getDate();
         article.setAuthor(userName);
-        article.setCreateTime(createTime);
-        article.setLastModifyTime(createTime);//创建时间也是初始的最后修改时间
+        article.setCreateTime(getDate());
+        article.setLastModifyTime(getDate());//创建时间也是初始的最后修改时间
         Hits hits = new Hits();
         hits.setArticle(article);
         article.setHits(hits);//设置初始热度
@@ -125,8 +124,7 @@ public class ArticleService {
         article.setTitle(title);
         article.setContent(content);
         article.setCategory(category);
-        Date lastModifyTime = getDate();
-        article.setLastModifyTime(lastModifyTime);
+        article.setLastModifyTime(getDate());
         boolean flag = articleDAO.updateArticle(article);
         return flag;
     }
@@ -151,7 +149,11 @@ public class ArticleService {
         return articleDAO.getKeywordArticleCount(keyword);
     }
 
-    public Date getDate() {
-        return new Date();
+    public String getDate() {
+        Date now = new Date();
+        SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return format.format(now);
     }
 }
+
+

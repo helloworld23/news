@@ -6,14 +6,14 @@ import com.news.utils.SessionUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * Created by zhongziming on 2017/5/5.
  */
-@Component
+@Repository
 public class AdminDAO {
     private SessionUtils sessionUtils = null;
 
