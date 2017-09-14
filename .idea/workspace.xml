@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d05c6b9-7a75-4252-b89e-81cd0328ec85" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+            <state relative-caret-position="601">
+              <caret line="86" column="34" lean-forward="true" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
               <folding>
                 <marker date="1505297763270" expanded="false" signature="1225:1239" ph="com.mysql.jdbc.Driver" />
                 <marker date="1505297763270" expanded="false" signature="1274:1285" ph="jdbc:mysql://localhost:3306/news?characterEncoding=UTF-8" />
@@ -944,7 +943,7 @@
       <workItem from="1505187237653" duration="303000" />
       <workItem from="1505188304245" duration="41000" />
       <workItem from="1505206843959" duration="371000" />
-      <workItem from="1505296153321" duration="1347000" />
+      <workItem from="1505296153321" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1500787022488</created>
@@ -960,11 +959,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505296351483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代码修改">
+      <created>1505297770998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505297770998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276178000" />
+    <option name="totallyTimeSpent" value="276194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -977,7 +983,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41009465" sideWeight="0.5058565" order="13" side_tool="true" content_ui="tabs" />
@@ -1566,8 +1571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        <state relative-caret-position="601">
+          <caret line="86" column="34" lean-forward="true" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
           <folding>
             <marker date="1505297763270" expanded="false" signature="1225:1239" ph="com.mysql.jdbc.Driver" />
             <marker date="1505297763270" expanded="false" signature="1274:1285" ph="jdbc:mysql://localhost:3306/news?characterEncoding=UTF-8" />
