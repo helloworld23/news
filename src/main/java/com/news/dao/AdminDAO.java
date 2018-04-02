@@ -6,7 +6,11 @@ import com.news.utils.SessionUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -59,16 +63,19 @@ public class AdminDAO {
 
         return admin;
     }
+
+    @Transactional(isolation = Isolation.REPEATABLE_READ,propagation = Propagation.REQUIRED)
     public boolean updateAdmin(Admin admin){
         Session session = null;
         try{
             session = sessionUtils.getSession();
+            session.getTransaction().begin();
             session.update(admin);
         }catch (Exception e){
             e.printStackTrace();
             return false;
         }
-
+        session.getTransaction().commit();
         return true;
     }
 }

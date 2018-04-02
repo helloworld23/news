@@ -11,6 +11,8 @@
 		http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
 		http://www.springframework.org/schema/context   
 		http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.springframework.org/schema/jee
+		http://www.springframework.org/schema/jee/spring-jee-2.0.xsd
 ">
 
 	<!-- 配置扫描组件 -->
@@ -22,8 +24,7 @@
 		<property name="location">
 			<value>classpath:jdbc.properties</value>
 		</property>
-	</bean> 
-
+	</bean>
 	<!-- 配置数据源 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="${jdbc.driver}" />
@@ -31,8 +32,6 @@
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
 	</bean>
-
-
 	<!-- 配置session工厂 -->
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
@@ -84,6 +83,7 @@
 		<tx:attributes>
 			<tx:method name="find*" read-only="true" propagation="NOT_SUPPORTED" />
 			<tx:method name="get*" read-only="true" propagation="SUPPORTS" />
+			<tx:method name="update*" propagation="SUPPORTS" />
 			<tx:method name="*" />
 		</tx:attributes>
 	</tx:advice>

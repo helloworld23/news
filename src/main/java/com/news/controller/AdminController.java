@@ -5,6 +5,7 @@ import com.news.model.SystemInfo;
 import com.news.service.AdminService;
 import com.news.service.SystemInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,7 +43,7 @@ public class AdminController {
         this.systemInfoService = systemInfoService;
     }
 
-    @RequestMapping("systemInfo")
+    @RequestMapping(value = "systemInfo")
     public ModelAndView systemInfo(){
         ModelAndView model = new ModelAndView();
         List<SystemInfo> systemInfos = systemInfoService.getSystemInfos(0,10);
@@ -64,7 +66,7 @@ public class AdminController {
     }
     @RequestMapping("updateSystemInfo")
     @ResponseBody
-    public Map<String,Object> updateSystemInfo(int id,String content,String createTime){
+    public Map<String,Object> updateSystemInfo(HttpRequest request, int id, String content, String createTime){
         Map<String,Object> map = new HashMap<>();
         boolean flag = systemInfoService.updateSystemInfo(id,createTime,content);
         if(flag == true){

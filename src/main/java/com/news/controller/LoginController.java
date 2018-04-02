@@ -38,7 +38,7 @@ public class LoginController{
     @RequestMapping(value = "userCheck")
     public String userCheck(User user, HttpSession session){
         boolean flag = userService.checkUser(user.getEmail(),user.getPassword());
-        if (flag == true){
+        if (flag){
             user = userService.getUser(user.getEmail());
             session.setAttribute("user",user);
             return "redirect:/news/publish";
@@ -50,7 +50,7 @@ public class LoginController{
         String email = admin.getEmail();
         String password = admin.getPassword();
         boolean flag = adminService.checkAdmin(email,password);
-        if(flag == true){
+        if(flag){
             admin = adminService.getAdminByEmail(email);
             session.setAttribute("admin",admin);
             return "redirect:/admin/systemInfo";
@@ -61,7 +61,7 @@ public class LoginController{
     @RequestMapping("loginToIndex")
     public String loginToIndex(User user,HttpSession session){
         boolean flag = userService.checkUser(user.getEmail(),user.getPassword());
-        if (flag == true){
+        if (flag){
             user = userService.getUser(user.getEmail());
             session.setAttribute("user",user);
             return "redirect:/index";

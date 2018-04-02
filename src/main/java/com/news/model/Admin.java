@@ -1,15 +1,19 @@
 package com.news.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.UUID;
 
 /**
  * Created by zhongziming on 2017/5/5.
  */
 @Entity
-public class Admin {
+public class Admin implements Serializable{
+    private static final long serializableVersion = 4648132165498113131L;
     private int id;
     private String email;
     private String adminName;
@@ -25,7 +29,8 @@ public class Admin {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "myUUID")
+    @GenericGenerator(name="myUUID",strategy = "uuid")
     public int getId() {
 
         return id;
@@ -34,7 +39,6 @@ public class Admin {
     public void setId(int id) {
         this.id = id;
     }
-
     public String getAdminName() {
         return adminName;
     }

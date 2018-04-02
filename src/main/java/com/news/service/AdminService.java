@@ -2,8 +2,13 @@ package com.news.service;
 
 import com.news.dao.AdminDAO;
 import com.news.model.Admin;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+
+import java.io.IOException;
 
 /**
  * Created by zhongziming on 2017/5/5.
@@ -11,6 +16,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AdminService {
     private AdminDAO adminDAO = null;
+    public Log log = LogFactory.getLog(AdminService.class);
 
     public AdminDAO getAdminDAO() {
         return adminDAO;
